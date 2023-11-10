@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+      html,
+      body {
+        display: block;
+        height: 100%;
+        width: 100%;
+        font-family: "Consolas";
+      }
+      #assemblyhealth {
+        color: red;
+      }
+      #alienhealth {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Game</h2>
+      <div>
+        <p>
+          <strong>USS Assembly Health</strong>:
+          <span id="assemblyhealth"></span> out of
+          <span id="assemblymaxhealth"></span>
+        </p>
+        <p>
+          <strong><span id="alienname"></span> (Alien Health)</strong>:
+          <span id="alienhealth"></span> out of
+          <span id="alienmaxhealth"></span>
+        </p>
+        <div>
+          <p>
+            <strong>Aliens (Remaining)</strong>:
+            <span id="remainingaliens">TODO</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="alienbox">
+      <button id="Attackbutton" type="button">Attack</button>
+      <button id="Retreatbutton" type="button">Retreat</button>
+    </div>
+
+    <div id = "imgDiv"> 
+      <img src="https://images.goodsmile.info/cgm/images/product/20220328/12510/97031/large/1551fc9107c110df39c68f8d747e4b80.jpg" alt="alienpic">
+
+
+    </div>
+  </body>
+</html>

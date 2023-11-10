@@ -1,0 +1,19 @@
+#alienbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: right;
+  border: 1px solid black;
+  align-items: right;
+  
+}
+
+#imgDiv > img {
+position: absolute; 
+right: 0;
+
+}
+
+#alienbox > *{
+flex: 1;
+}
