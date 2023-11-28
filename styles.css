@@ -10,10 +10,14 @@
 
 #imgDiv > img {
 position: absolute; 
-right: 0;
+right: 0;}
 
-}
 
 #alienbox > *{
 flex: 1;
+}
+body {
+
+background-image: url("https://images.goodsmile.info/cgm/images/product/20220328/12510/97031/large/1551fc9107c110df39c68f8d747e4b80.jpg");  
+
 }
